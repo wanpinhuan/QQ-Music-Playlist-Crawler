@@ -25,7 +25,7 @@ jobs:
           USERNAME: {{}}
           PASSWORD: {{}}
         run: |
-          python qq_music_crawler.py --username $USERNAME --password $PASSWORD
+          python qq_music_crawler.yml --username $USERNAME --password $PASSWORD
       - name: 
         uses: 
         with:
