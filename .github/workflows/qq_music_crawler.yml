@@ -1,0 +1,33 @@
+name
+ 
+on
+  schedule:
+'0 0 * * *'
+ 
+jobs:
+  crawl:
+on
+    steps:
+name
+        uses
+ 
+name
+        uses
+        with
+3.8
+ 
+name
+        run: |
+          python -m pip install --upgrade pip
+txt
+name
+        env:
+{{}
+{{}
+        run: |
+py
+name
+        uses
+        with
+          name
+          path: 
